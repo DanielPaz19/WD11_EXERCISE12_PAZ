@@ -1,0 +1,97 @@
+* {
+  font-family: "Comic Neue", cursive;
+}
+
+body {
+  background-color: rgba(213, 203, 115, 0.6);
+}
+
+.bg-classic-yellow {
+  background-color: #d5cb73;
+}
+
+.bg-dark-green {
+  background-color: #405f4f;
+}
+
+.text-dark-green {
+  color: #405f4f;
+}
+
+.font-gugi {
+  font-family: "Gugi", cursive;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-comic {
+  font-family: "Comic Neue", cursive;
+}
+
+.navbar-brand {
+  color: #405f4f !important;
+}
+
+.navbar {
+  border-bottom: #405f4f 3px solid;
+  background-color: #d5cb73;
+}
+
+.btn-dark-green {
+  background-color: #405f4f;
+  color: white;
+  border: 2px solid #001f31;
+}
+
+.btn-dark-green:hover {
+  background-color: #001f31;
+  color: white;
+}
+
+.heading {
+  border-bottom: 3px solid #405f4f;
+}
+
+.card {
+  height: 100%;
+  cursor: zoom-in;
+}
+
+.card img {
+  filter: sepia(70%);
+  transition: 0.25s;
+}
+
+.card img:hover {
+  filter: none;
+}
+
+.footer {
+  border-top: #405f4f 3px solid;
+  background-color: #d5cb73;
+}
+
+a:hover {
+  color: #001f31;
+}
+
+@media only screen and (min-width: 600px) {
+  .carousel-inner {
+    height: 100vh;
+  }
+}
+
+.container-summary img {
+  filter: sepia(60%);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #d5cb73;
+  color: #405f4f;
+}
+
+.container-summary img:hover {
+  filter: none;
+}
